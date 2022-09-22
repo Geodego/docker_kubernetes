@@ -68,6 +68,8 @@ app.get('/people', async (req, res) => {
 });
 
 mongoose.connect(
+  /* Here we use mongodb in mongodb:27017/swfavorites has it is the container 
+  name we've given to the one built from the mongo image */
   'mongodb://mongodb:27017/swfavorites',
   { useNewUrlParser: true },
   (err) => {
