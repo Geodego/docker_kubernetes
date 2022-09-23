@@ -2,4 +2,4 @@
 Maximilian Schwarzmüler
 
 List of chapters corresponding modules:
-- section 5: multi-container-app
+- section 5: multi-container-section5
